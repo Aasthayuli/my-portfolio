@@ -34,7 +34,6 @@ const Contact = () => {
     >
       <div className="relative contact-title">
         <h1 className="py-0 px-[30px] text-[80px] font-bold">Get in Touch</h1>
-        {/* <img src="" alt="" /> */}
       </div>
 
       <div className="flex gap-[150px] contact-section">
@@ -111,7 +110,6 @@ const Contact = () => {
             Submit Now
           </button>
         </form>
-        {/* <div className="contact-right"></div> */}
       </div>
     </div>
   );

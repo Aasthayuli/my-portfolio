@@ -13,6 +13,7 @@ import twcss from "../assets/twcss.png";
 import vscode from "../assets/vscode.jpeg";
 import pycharm from "../assets/pycharm.png";
 import intellij from "../assets/intellij.png";
+import reactjs from "../assets/react.png";
 
 const About = () => {
   return (
@@ -85,6 +86,10 @@ const About = () => {
               <div className="img-div">
                 <img src={js} />
                 <span>JavaScript </span>
+              </div>
+              <div className="img-div">
+                <img src={reactjs} />
+                <span>React JS </span>
               </div>
               <div className="img-div">
                 <img src={c} />

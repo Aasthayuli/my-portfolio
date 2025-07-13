@@ -110,7 +110,8 @@
   }
   @media (max-width: 768px) {
     .navbar {
-      margin: 20px 50px;
+      margin: 0;
+      padding-right: 0;
     }
     .nav-connect {
       display: none;
@@ -169,12 +170,12 @@
     }
 
     .hero-connect {
-      padding: 20px 30px;
+      padding: 10px 20px;
       border-radius: 40px;
     }
 
     .hero-resume {
-      padding: 20px 50px;
+      padding: 10px 20px;
       border-radius: 40px;
     }
 
@@ -187,24 +188,50 @@
       font-size: 50px;
       padding: 0;
     }
+    .about-para p {
+      font-size: 18px;
+    }
+    .card-title {
+      font-size: 25px;
+    }
+    .card-frame {
+      gap: 30px;
+    }
+    .card-frame img {
+      width: 60px;
+      height: 60px;
+      margin: 5px;
+    }
+    .card-frame span {
+      font-size: 20px;
+    }
     .about-sections {
       flex-direction: column;
       align-items: center;
     }
 
+    .services {
+      margin: 70px;
+    }
+    .services-title h1 {
+      font-size: 50px;
+      padding: 0;
+    }
     .services-container {
+      width: 100%;
       flex-direction: column;
       align-items: center;
     }
     .certificate-content {
+      margin: 5px;
       width: 100%;
     }
-    .certificate-content img {
-      width: 50%;
+    .pr-para {
+      padding: 15px 0;
     }
-
     .pr-para-p {
       font-size: 20px;
+      text-align: left;
     }
     .mywork {
       gap: 50px;
