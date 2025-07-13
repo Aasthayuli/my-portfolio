@@ -6,7 +6,7 @@ import git from "../assets/git.png";
 import html from "../assets/html.jpg";
 import java from "../assets/java.png";
 import js from "../assets/js.png";
-import Leetcode from "../assets/Leetcode.png";
+import Leetcode from "../assets/LeetCode.png";
 import mysql from "../assets/mysql.jpeg";
 import python from "../assets/python.png";
 import twcss from "../assets/twcss.png";
