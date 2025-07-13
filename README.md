@@ -10,13 +10,14 @@ This is a modern personal portfolio website built using **React 19**, **Vite 7**
 - ⚡ **Vite 7** – Lightning-fast build tool
 - 🎨 **Tailwind CSS 4** – Utility-first CSS framework
 - 🔁 **React Router DOM** – For client-side routing
+- 📦 **react-anchor-link-smooth-scroll** - For smooth scrolling
 - 🧩 Modular and clean folder structure
 
 ---
 
 ## Live Demo
 
-[Live Demo](https://aasthayuli.github.io/my-portfolio/)
+[Live Demo of Portfolio](https://aasthayuli.netlify.app/)
 
 ---
 
