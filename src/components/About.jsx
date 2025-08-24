@@ -22,7 +22,7 @@ const About = () => {
       className="flex flex-col items-center justify-center gap-[80px] my-16 mx-28 about"
     >
       <div className="relative about-title">
-        <h1 className="py-0 px-[30px] text-6xl font-extrabold z-10 relative ">
+        <h1 className="py-0 px-[30px] text-[50px]  font-extrabold z-10 relative ">
           About Me
         </h1>
       </div>

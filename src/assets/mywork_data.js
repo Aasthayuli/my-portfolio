@@ -3,9 +3,10 @@ import project2_img from "../assets/project_2.png";
 import project3_img from "../assets/project_3.png";
 import project4_img from "../assets/project_4.png";
 import project5_img from "../assets/project_5.png";
+import wecure from "../assets/wecure.mp4";
 // import project6_img from "../assets/project_6.svg";
 
-const mywork_data = [
+export const mywork_data = [
   {
     w_no: 1,
     w_name: "E-Commerce Website",
@@ -37,5 +38,10 @@ const mywork_data = [
   //     w_img: project6_img,
   //   },
 ];
-
-export default mywork_data;
+export const experience_data = [
+  {
+    w_no: 1,
+    w_name: "Frontend Developer at Wecure Wellness",
+    w_img: wecure,
+  },
+];

@@ -1,4 +1,4 @@
-import mywork_data from "../assets/mywork_data";
+import { mywork_data } from "../assets/mywork_data";
 import arrow_icon from "../assets/arrow_icon.svg";
 const MyWork = () => {
   return (
@@ -7,7 +7,7 @@ const MyWork = () => {
       className="flex flex-col items-center justify-center gap-[80px] my-[80px] mx-[170px] mywork"
     >
       <div className="relative mywork-title">
-        <h1 className="py-0 px-[30px] text-[80px] font-bold">Projects</h1>
+        <h1 className="py-0 px-[30px] text-[50px]  font-bold">Projects</h1>
       </div>
 
       <div className="mywork-container">
@@ -29,7 +29,9 @@ const MyWork = () => {
       </div>
 
       <div className="flex gap-[20px] rounded-4xl border-2 border-solid border-white py-[20px] px-[30px] text-[22px]  mb-[80px] cursor-pointer transition-all duration-[300ms]  hover:gap-[30px] mywork-showmore">
-        <a href="https://github.com/Aasthayuli?tab=repositories">Show More</a>
+        <a href="https://github.com/Aasthayuli?tab=repositories">
+          Visit GitHub Profile
+        </a>
         <img src={arrow_icon} alt="" />
       </div>
     </div>
