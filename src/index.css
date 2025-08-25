@@ -4,7 +4,7 @@
     font-family: "outfit";
   }
   .gradient-text {
-    background: linear-gradient(267deg, #da7c25 0.36%, #b923e1 102.06%);
+    background: linear-gradient(267deg, #58a0c8 0.36%, #34699a 102.06%);
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
@@ -68,10 +68,14 @@
     flex-direction: column;
     cursor: pointer;
   }
-  .menu-li-img {
-    display: flex;
-    margin: auto;
+  .underline {
+    width: 70%;
+    height: 2px;
+    border-radius: 5px;
+    background: linear-gradient(267deg, #58a0c8 0.36%, #34699a 102.06%);
+    transition: width 0.3s ease-in-out;
   }
+
   .anchor-link {
     text-decoration: none;
     color: #d8d8d8;
@@ -95,7 +99,7 @@
   .certificate-content:hover {
     transform: scale(1.05);
     transition: 0.3s;
-    border: 2px solid #da7c25;
+    border: 2px solid #58a0c8;
     border-radius: 10px;
   }
   .pr-para {
@@ -125,8 +129,9 @@
       display: block;
       position: relative;
       top: 30px;
-      left: 290px;
-      width: 30px;
+      left: 200px;
+      width: 20px;
+      margin-bottom: 50px;
     }
     .nav-menu {
       position: fixed;
@@ -135,17 +140,15 @@
       top: 0;
       gap: 30px;
       background-color: #1f0016;
-      width: 350px;
+      width: 250px;
       height: 100%;
       z-index: 2;
       transition: right 0.5s;
       right: -350px;
     }
     .menu-li {
-      font-size: 30px;
-      padding-left: 100px;
-      flex-direction: row;
-      gap: 20px;
+      font-size: 22px;
+      padding-left: 30px;
     }
 
     .hero img {

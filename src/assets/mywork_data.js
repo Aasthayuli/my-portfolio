@@ -11,26 +11,32 @@ export const mywork_data = [
     w_no: 1,
     w_name: "E-Commerce Website",
     w_img: project1_img,
+    w_link: "https://shopleyla.netlify.app/",
   },
   {
     w_no: 2,
     w_name: "Employee Management System",
     w_img: project2_img,
+    w_link: "https://github.com/Aasthayuli/EmployeeManagementSystem",
   },
   {
     w_no: 3,
     w_name: "Hospital Management System",
     w_img: project3_img,
+    w_link: "https://github.com/Aasthayuli/HospitalManagementSystem",
   },
   {
     w_no: 4,
     w_name: "Python Projects",
     w_img: project4_img,
+    w_link:
+      "https://github.com/Aasthayuli/100-Days-of-Code---The-Complete-Python-Pro-Bootcamp",
   },
   {
     w_no: 5,
     w_name: "JavaScript Projects",
     w_img: project5_img,
+    w_link: "https://github.com/Aasthayuli/JavaScript-Projects",
   },
   //   {
   //     w_no: 6,

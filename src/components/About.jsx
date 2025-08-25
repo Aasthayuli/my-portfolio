@@ -22,7 +22,7 @@ const About = () => {
       className="flex flex-col items-center justify-center gap-[80px] my-16 mx-28 about"
     >
       <div className="relative about-title">
-        <h1 className="py-0 px-[30px] text-[50px]  font-extrabold z-10 relative ">
+        <h1 className="py-0 px-[30px] text-[50px]  font-extrabold relative ">
           About Me
         </h1>
       </div>
@@ -36,30 +36,31 @@ const About = () => {
               I am
               <span className="font-bold gradient-text">
                 {" "}
-                Computer Science and Engineering
+                a Computer Science and Engineering
               </span>{" "}
               student at
               <span className="font-bold gradient-text">
                 {" "}
                 Global Institute of Technology and Management,
               </span>{" "}
-              Gurugram. I am Highly Motivated, Proactive Programmer with a
-              Passion for tackling Complex, real-world Challenges. Curious and
-              Driven, I thrive on solving Intricate Problems and continuously
-              seek to enhance my skills. I am currently working on a project in
-              the field of Web Development and I am also working on a project in
-              the field of Application Software using Java.I passed my
-              HighSchool and SEE from{" "}
+              Gurugram. I am a motivated and proactive programmer who enjoys
+              solving real-world problems and improving my skills. Currently, I
+              am working on projects in{" "}
               <span className="font-bold gradient-text">
-                Jawahar Navodaya Vidyalaya(JNV),
+                Web Development and Application Software using Java
               </span>{" "}
-              Saharsa, Bihar.
+              . I completed my schooling from{" "}
+              <span className="font-bold gradient-text">
+                {" "}
+                Jawahar Navodaya Vidyalaya
+              </span>{" "}
+              , Saharsa, Bihar.
             </p>
             <p>
-              I am Passionate about sharing the Knowledge I've accumulated from
-              Diverse sources and my Life Experiences. With a background in
-              Coding and a strong interest in Computer Science, I am also an
-              Avid Reader and Excellent at Solving Problems.
+              I am passionate about sharing what I learn through different
+              sources and experiences. Along with coding, I love exploring new
+              concepts in computer science, reading, and solving challenging
+              problems.
             </p>
           </div>
           <div className="flex flex-col gap-[20px] about-skills">

@@ -1,8 +1,11 @@
 import mail_icon from "../assets/mail_icon.svg";
 import location_icon from "../assets/location_icon.svg";
 import call_icon from "../assets/call_icon.svg";
+import { SoundContext } from "../App";
+import { useContext } from "react";
 
 const Contact = () => {
+  const { enableSound } = useContext(SoundContext) || {};
   const onSubmit = async (event) => {
     event.preventDefault();
     const formData = new FormData(event.target);
@@ -99,12 +102,15 @@ const Contact = () => {
             name="message"
             rows={6}
             placeholder="Enter your message"
-            className="w-[450px] md:w-[700px] border-none rounded-sm bg-[#32323c] text-[#a0a0a0] font-outfit text-[20px] contact-textarea"
+            className="w-full md:w-[700px] border-none rounded-sm bg-[#32323c] text-[#a0a0a0] font-outfit text-[20px] contact-textarea"
           ></textarea>
 
           <button
             type="submit"
-            className="contact-btn border-none text-white rounded-2xl bg-[linear-gradient(267deg,_#df8908_-5.09%,_#B415FF_106.28%)] text-[22px] py-[10px] px-[40px] mb-[50px] cursor-pointer transition-all duration-[300ms] hover:transform hover:scale-110"
+            className="contact-btn border-none text-white rounded-2xl bg-[linear-gradient(267deg,_#34699A_-5.09%,_#58a0c8_106.28%)] text-[22px] py-[10px] px-[40px] mb-[50px] cursor-pointer transition-all duration-[300ms] hover:transform hover:scale-110"
+            onClick={() => {
+              enableSound && enableSound();
+            }}
           >
             Submit Now
           </button>

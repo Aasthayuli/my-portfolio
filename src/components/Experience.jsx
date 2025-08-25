@@ -1,5 +1,4 @@
 import { experience_data } from "../assets/mywork_data";
-// import arrow_icon from "../assets/arrow_icon.svg";
 const Experience = () => {
   return (
     <div
@@ -11,12 +10,12 @@ const Experience = () => {
       </div>
 
       <div>
-        {experience_data.map((work, index) => {
+        {experience_data.map((work) => {
           return (
             <div className="flex flex-col md:flex-row gap-[20px]">
               <div
-                key={index}
-                className=" rounded-2xl shadow-2xl border-2  border-[#ff00ff] md:w-1/2 h-full p-[20px] "
+                key={work.w_no}
+                className=" rounded-2xl shadow-2xl border-2  border-[#34699A] md:w-1/2 h-full p-[20px] "
               >
                 <video className="w-full h-full" controls="controls">
                   <source src={work.w_img} type="video/mp4" />
@@ -52,11 +51,6 @@ const Experience = () => {
           );
         })}
       </div>
-
-      {/* <div className="flex gap-[20px] rounded-4xl border-2 border-solid border-white py-[20px] px-[30px] text-[22px]  mb-[80px] cursor-pointer transition-all duration-[300ms]  hover:gap-[30px] mywork-showmore">
-        <a href="https://github.com/Aasthayuli?tab=repositories">Show More</a>
-        <img src={arrow_icon} alt="" />
-      </div> */}
     </div>
   );
 };
