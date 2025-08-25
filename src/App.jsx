@@ -102,12 +102,12 @@ function App() {
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, delay: 1 }}
-          className="fixed bottom-4 right-4 flex flex-col items-center"
+          className="hidden md:flex fixed bottom-4 right-4 flex-col items-center"
         >
           <AnchorLink
             offset={50}
             href="#home"
-            className="text-2xl text-white p-3 rounded-full hover:bg-[#333] transition"
+            className="text-2xl text-white p-3 rounded-full hover:bg-[#333] transition "
             onClick={enableSound}
           >
             <i className="fa-solid fa-arrow-up-long"></i>
