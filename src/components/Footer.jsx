@@ -20,7 +20,7 @@ const Footer = () => {
           © 2025 All rights reserved by{" "}
           <span className="gradient-text">Aasthayuli</span>.
         </p>
-        <div className="flex gap-[50px] mb-[50px]">
+        <div className="flex flex-col md:flex-row gap-1 md:gap-[50px]  mb-[50px]">
           <p>Terms of Services</p>
           <p>Privacy Policy</p>
           <p>Connect with me</p>

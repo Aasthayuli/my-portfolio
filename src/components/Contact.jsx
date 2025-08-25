@@ -35,7 +35,7 @@ const Contact = () => {
       className="flex flex-col items-center justify-center gap-[80px] my-[80px] mx-[170px] contact"
     >
       <div className="relative">
-        <h1 className="py-0 px-[30px] text-[50px] font-bold">Get in Touch</h1>
+        <h1 className="py-0 text-[50px] font-bold">Get in Touch</h1>
       </div>
 
       <div className="flex gap-[150px] contact-section">

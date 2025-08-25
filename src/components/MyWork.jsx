@@ -30,14 +30,14 @@ const MyWork = () => {
         })}
       </div>
 
-      <div className="flex gap-[20px] rounded-4xl border-2 border-solid border-white py-[20px] px-[30px] text-[22px]  mb-[80px] cursor-pointer transition-all duration-[300ms]  hover:gap-[30px] mywork-showmore">
+      <div className="flex gap-[10px] rounded-4xl border-2 border-solid border-white py-[20px] px-[30px] text-[16px] md:text-[22px]  mb-[80px] cursor-pointer transition-all duration-[300ms]  hover:gap-[20px] mywork-showmore">
         <a
           href="https://github.com/Aasthayuli?tab=repositories"
           onClick={() => {
             enableSound && enableSound();
           }}
         >
-          Visit GitHub Profile
+          Visit GitHub
         </a>
         <img src={arrow_icon} alt="" />
       </div>

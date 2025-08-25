@@ -14,7 +14,7 @@ const Certificates = () => {
       className="flex flex-col items-center justify-center gap-[80px] my-[80px] mx-[170px] services"
     >
       <div className="relative services-title">
-        <h1 className="py-0 px-[30px] text-[50px] font-bold">Certificates</h1>
+        <h1 className="py-0 text-[50px] font-bold">Certificates</h1>
       </div>
       <div className="services-container flex justify-evenly flex-wrap ">
         <div className="certificate-content w-1/3 ">
