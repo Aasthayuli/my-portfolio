@@ -47,7 +47,8 @@ export const mywork_data = [
 export const experience_data = [
   {
     w_no: 1,
-    w_name: "Frontend Developer at Wecure Wellness",
+    w_name:
+      "AI & Sustainability Intern — Skills4Future (AICTE Virtual Internship)",
     w_img: wecure,
   },
 ];
