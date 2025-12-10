@@ -1,5 +1,6 @@
 import { mywork_data } from "../assets/mywork_data";
 import arrow_icon from "../assets/arrow_icon.svg";
+import { Link } from "react-router-dom";
 
 const MyWork = () => {
   return (
@@ -20,11 +21,13 @@ const MyWork = () => {
             >
               <p className="text-[22px] gradient-text">{work.w_name}</p>
 
-              <img
-                src={work.w_img}
-                alt=""
-                className="box-border transition duration-300 "
-              />
+              <Link to={work.w_link} target="_blank" rel="noopener noreferrer">
+                <img
+                  src={work.w_img}
+                  alt=""
+                  className="box-border transition duration-300 "
+                />
+              </Link>
             </div>
           );
         })}

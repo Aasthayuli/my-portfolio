@@ -2,7 +2,7 @@ import nptel from "../assets/nptel.png";
 import DB from "../assets/db.png";
 import nptel2 from "../assets/nptel2.png";
 import udemy from "../assets/udemy.png";
-import tcs from "../assets/tcs.png";
+import aicte from "../assets/internship.png";
 
 const Certificates = () => {
   return (
@@ -70,15 +70,15 @@ const Certificates = () => {
             </p>
           </div>
         </div>
-        <div className="certificate-content w-1/4 ">
-          <img src={tcs} className="w-[98%]" />
+        <div className="certificate-content w-1/4">
+          <img src={aicte} className="h-[250px]" />
           <div className="pr-para">
             <p className="pr-para-p text-3xl gradient-text font-semibold">
-              Learn Corporate Etiquette
+              Artificial Intelligence and Data Analytics
             </p>
-            <p>by tcs ion</p>
+            <p>via AICTE- Skills4Future Program</p>
             <p className="gradient-text font-bold">
-              <a href="https://drive.google.com/file/d/1G0bSL3DxPBjLQ1PUKyYIItsOQI_94sqM/view?usp=sharing">
+              <a href="https://drive.google.com/file/d/1xW03G5mGcaWmOEzKHJ2_Jd7mJqBBVlQM/view?usp=sharing">
                 Verify
               </a>
             </p>

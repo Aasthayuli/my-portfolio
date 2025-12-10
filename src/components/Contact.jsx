@@ -58,6 +58,7 @@ const Contact = () => {
               <img src={location_icon} alt="" />
               <p>Bihar</p>
             </div>
+
             <div className="contact-detail">
               <a href="https://github.com/Aasthayuli?tab=repositories">
                 <i class="fa-brands fa-github"></i>

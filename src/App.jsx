@@ -1,8 +1,8 @@
-import { motion } from "framer-motion"; // Import Framer Motion
+import { motion } from "framer-motion";
 import About from "./components/About.jsx";
 import Certificates from "./components/Certificates.jsx";
 import Contact from "./components/Contact.jsx";
-import Experience from "./components/Experience.jsx";
+// import Experience from "./components/Experience.jsx";
 import Footer from "./components/Footer.jsx";
 import Hero from "./components/Hero.jsx";
 import MyWork from "./components/MyWork.jsx";
@@ -49,14 +49,14 @@ function App() {
         </motion.div>
 
         {/* Experience section animation */}
-        <motion.div
+        {/* <motion.div
           initial={{ x: 100, opacity: 0 }}
           whileInView={{ x: 0, opacity: 1 }}
           transition={{ duration: 0.8 }}
           viewport={{ once: true }}
         >
           <Experience />
-        </motion.div>
+        </motion.div> */}
 
         {/* MyWork animation */}
         <motion.div
@@ -107,7 +107,7 @@ function App() {
           <AnchorLink
             offset={50}
             href="#home"
-            className="text-2xl text-white p-3 rounded-full hover:bg-[#333] transition "
+            className="animate-bounce text-2xl text-white p-3 rounded-full hover:bg-[#333] transition "
             onClick={enableSound}
           >
             <i className="fa-solid fa-arrow-up-long"></i>
