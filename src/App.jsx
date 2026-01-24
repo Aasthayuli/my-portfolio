@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import About from "./components/About.jsx";
 import Certificates from "./components/Certificates.jsx";
 import Contact from "./components/Contact.jsx";
-// import Experience from "./components/Experience.jsx";
+import Experience from "./components/Experience.jsx";
 import Footer from "./components/Footer.jsx";
 import Hero from "./components/Hero.jsx";
 import MyWork from "./components/MyWork.jsx";
@@ -49,14 +49,14 @@ function App() {
         </motion.div>
 
         {/* Experience section animation */}
-        {/* <motion.div
+        <motion.div
           initial={{ x: 100, opacity: 0 }}
           whileInView={{ x: 0, opacity: 1 }}
           transition={{ duration: 0.8 }}
           viewport={{ once: true }}
         >
           <Experience />
-        </motion.div> */}
+        </motion.div>
 
         {/* MyWork animation */}
         <motion.div

@@ -71,7 +71,7 @@ const Navbar = () => {
           </AnchorLink>
           {menu === "about" ? <div className="underline"></div> : <></>}
         </li>
-        {/* <li className="menu-li">
+        <li className="menu-li">
           <AnchorLink
             className="anchor-link"
             offset={50}
@@ -83,7 +83,7 @@ const Navbar = () => {
             <p onClick={() => setMenu("experience")}>Experience</p>
           </AnchorLink>
           {menu === "experience" ? <div className="underline"></div> : <></>}
-        </li> */}
+        </li>
         <li className="menu-li">
           <AnchorLink
             className="anchor-link"

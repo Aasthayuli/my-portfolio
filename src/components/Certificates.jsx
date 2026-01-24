@@ -70,20 +70,6 @@ const Certificates = () => {
             </p>
           </div>
         </div>
-        <div className="certificate-content w-1/4">
-          <img src={aicte} className="h-[250px]" />
-          <div className="pr-para">
-            <p className="pr-para-p text-3xl gradient-text font-semibold">
-              Artificial Intelligence and Data Analytics
-            </p>
-            <p>via AICTE- Skills4Future Program</p>
-            <p className="gradient-text font-bold">
-              <a href="https://drive.google.com/file/d/1xW03G5mGcaWmOEzKHJ2_Jd7mJqBBVlQM/view?usp=sharing">
-                Verify
-              </a>
-            </p>
-          </div>
-        </div>
       </div>
     </div>
   );
