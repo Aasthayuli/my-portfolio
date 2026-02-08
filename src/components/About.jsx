@@ -1,4 +1,4 @@
-import profile2 from "../assets/profile2.png";
+import profile2 from "../assets/profile.jpg";
 import bootstrap from "../assets/bootstrap.png";
 import c from "../assets/c.jpeg";
 import css from "../assets/css.png";

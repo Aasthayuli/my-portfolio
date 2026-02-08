@@ -1,4 +1,4 @@
-import profile from "../assets/profile.png";
+import profile from "../assets/profile.jpg";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 import { SoundContext } from "../App";
 import { useContext } from "react";
