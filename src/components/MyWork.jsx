@@ -6,7 +6,7 @@ const MyWork = () => {
   return (
     <div
       id="work"
-      className="flex flex-col items-center justify-center gap-[30px] my-[80px] mx-[170px] mywork"
+      className="flex flex-col items-center justify-center gap-[30px] my-[80px] mx-[170px] mywork mybg"
     >
       <div className="relative mywork-title">
         <h1 className="py-0 px-[30px] text-[50px]  font-bold">Projects</h1>
@@ -17,7 +17,7 @@ const MyWork = () => {
           return (
             <div
               key={index}
-              className="hover:transform hover:duration-400 hover:scale-110 rounded-2xl hover:shadow-2xl hover:border-2  hover:border-[#34699A] w-full h-full p-[20px] "
+              className="hover:transform hover:duration-600 hover:scale-110 rounded-2xl hover:shadow-2xl hover:border-2  hover:border-[#34699A] w-full h-full p-[20px] "
             >
               <p className="text-[22px] gradient-text">{work.w_name}</p>
 

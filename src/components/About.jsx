@@ -1,4 +1,4 @@
-import profile2 from "../assets/profile.jpg";
+import profile2 from "../assets/profile.png";
 import bootstrap from "../assets/bootstrap.png";
 import c from "../assets/c.jpeg";
 import css from "../assets/css.png";
@@ -16,11 +16,12 @@ import intellij from "../assets/intellij.png";
 import reactjs from "../assets/react.png";
 import pytorch from "../assets/pytorch.png";
 import arrow_icon from "../assets/arrow_icon.svg";
+import GFG from "../assets/gfg.png";
 const About = () => {
   return (
     <div
       id="about"
-      className="flex flex-col items-center justify-center my-16 mx-28 about"
+      className="flex flex-col items-center justify-center my-16 mx-28 about mybg"
     >
       <div className="relative about-title mb-12">
         <h1 className="py-0 px-[30px] text-[50px] font-extrabold relative ">
@@ -34,7 +35,7 @@ const About = () => {
         <div className="flex flex-col gap-[80px]">
           <div className="flex flex-col gap-[20px] text-2xl about-para">
             <p>
-              I'm <span className="gradient-text">Aasthayuli</span>, from
+              {/* I'm <span className="gradient-text">Aasthayuli</span>, from
               Saharsa, Bihar. I completed my schooling at{" "}
               <span className="gradient-text">
                 Jawahar Navodaya Vidyalaya, Saharsa
@@ -69,10 +70,30 @@ const About = () => {
               build smart, efficient applications. I learn by doing, and I've
               grown my skills through real, hands-on project work.
             </p>
-            <p>
-              I enjoy creating clean, purposeful, and scalable products, and I'm
-              actively working toward opportunities where I can build meaningful
-              tech and grow as a developer.
+            <p> */}
+              {/* Hi, I'm <span className="gradient-text">Aasthayuli</span>.
+              <br></br>I enjoy creating clean, purposeful, and scalable
+              products, and I'm actively working toward opportunities where I
+              can build meaningful tech and grow as a developer. */}
+              I am a{" "}
+              <span className="gradient-text">
+                final year Computer Science student
+              </span>{" "}
+              skilled in programming languages{" "}
+              <span className="gradient-text">python </span> and{" "}
+              <span className="gradient-text">core java</span> and have done a
+              internship as{" "}
+              <span className="gradient-text">python developer</span>. I also
+              have exposure to <span className="gradient-text">AI/ML</span>{" "}
+              through personal projects. Currently I practice Data Structures
+              and Algorithms and have{" "}
+              <span className="gradient-text">high learning discipline </span>{" "}
+              and{" "}
+              <span className="gradient-text">
+                project based learning experience
+              </span>
+              . I am looking for a role where I can apply my current skills,
+              gain experience and grow as a developer.
             </p>
           </div>
         </div>
@@ -94,10 +115,10 @@ const About = () => {
             <img src={twcss} />
             <span>Tailwind CSS </span>
           </div>
-          <div className="img-div animate-pulse">
+          {/* <div className="img-div animate-pulse">
             <img src={bootstrap} />
             <span>BootStrap</span>
-          </div>
+          </div> */}
           <div className="img-div animate-pulse">
             <img src={js} />
             <span>JavaScript </span>
@@ -128,12 +149,20 @@ const About = () => {
           </div>
         </div>
         <div className="card-title gradient-text ">
-          <h4>Competitive Programming</h4>
+          <h4>Competitive Programming </h4>
         </div>
         <div className="card-frame">
           <div className="img-div animate-pulse">
-            <img src={Leetcode} />
-            <span>Leetcode</span>
+            <a href="https://leetcode.com/u/Aasthayuli/" target="_blank">
+              <img src={Leetcode} />
+              <span className="hover:underline">Leetcode</span>
+            </a>
+          </div>
+          <div className="img-div animate-pulse">
+            <a href="https://leetcode.com/u/Aasthayuli/" target="_blank">
+              <img src={GFG} />
+              <span className="hover:underline">GeeksForGeeks</span>
+            </a>
           </div>
         </div>
         <div className="card-title gradient-text ">
@@ -156,12 +185,20 @@ const About = () => {
             <span>Intellij Idea</span>
           </div>
         </div>
-        <div className="flex gap-[10px] rounded-4xl border-2 border-solid border-white py-[20px] px-[30px] text-[16px] md:text-[22px]  my-[40px] cursor-pointer transition-all duration-[300ms]  hover:gap-[20px] max-w-sm justify-center">
-          <a href="https://leetcode.com/u/Aasthayuli/" target="_blank">
-            <i class="fa-solid fa-laptop-code"></i> Visit Leetcode Profile
-          </a>
-          <img src={arrow_icon} alt="" />
-        </div>
+        {/* <div className="flex gap-4">
+          <div className="flex gap-[10px] rounded-4xl py-[14px] px-[10px] text-[14px] md:text-[18px]  my-[40px] cursor-pointer transition-all duration-[300ms] max-w-2xs justify-center hover:gap-[20px] hover:bg-[linear-gradient(267deg,#58a0c8_0.36%,#34699a_102.06%)]">
+            <a href="https://leetcode.com/u/Aasthayuli/" target="_blank">
+              <i class="fa-solid fa-laptop-code"></i> Visit Leetcode Profile
+            </a>
+            <img src={arrow_icon} alt="" className="w-1/4" />
+          </div>
+          <div className="flex gap-[10px] rounded-4xl py-[14px] px-[10px] text-[14px] md:text-[18px]  my-[40px] cursor-pointer transition-all duration-[300ms] max-w-2xs justify-center hover:gap-[20px] hover:bg-[linear-gradient(267deg,#58a0c8_0.36%,#34699a_102.06%)]">
+            <a href="https://leetcode.com/u/Aasthayuli/" target="_blank">
+              <i class="fa-solid fa-laptop-code"></i> Visit Leetcode Profile
+            </a>
+            <img src={arrow_icon} alt="" className="w-1/4" />
+          </div>
+        </div> */}
       </div>
     </div>
   );

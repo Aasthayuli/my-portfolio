@@ -1,6 +1,6 @@
 const Footer = () => {
   return (
-    <div className="my-[50px] mx-[170px] flex flex-col gap-[30px] footer">
+    <div className="my-[50px] mx-[170px] flex flex-col gap-[30px] footer mybg">
       <div className="flex justify-between footer-top ">
         <div className="footer-top-left">
           <div className="flex items-center gap-2 text-4xl">
@@ -15,15 +15,15 @@ const Footer = () => {
 
       <hr />
 
-      <div className="flex justify-between text-[18px] footer-bottom">
+      <div className="flex justify-between text-[18px] footer-bottom ">
         <p className="footer-bottom-left">
-          © 2025 All rights reserved by{" "}
-          <span className="gradient-text">Aasthayuli</span>.
+          Designed & Developed by{" "}
+          <span className="gradient-text">Aasthayuli</span>
         </p>
         <div className="flex flex-col md:flex-row gap-1 md:gap-[50px]  mb-[50px]">
-          <p>Terms of Services</p>
-          <p>Privacy Policy</p>
-          <p>Connect with me</p>
+          <p className="hover:underline cursor-pointer">Terms of Services</p>
+          <p className="hover:underline cursor-pointer">Privacy Policy</p>
+          <p className="hover:underline cursor-pointer">Connect with me</p>
         </div>
       </div>
     </div>

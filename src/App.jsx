@@ -18,8 +18,7 @@ function App() {
     audio.play().catch((err) => console.log("Autoplay blocked:", err));
   };
   return (
-    <div className="bg-[#161513] text-white font-outfit overflow-x-hidden">
-      {/* Navbar with animation */}
+    <div className="bg-black text-white font-outfit overflow-x-hidden">
       <SoundContext.Provider value={{ enableSound }}>
         <motion.div
           initial={{ y: -50, opacity: 0 }}
@@ -29,7 +28,6 @@ function App() {
           <Navbar />
         </motion.div>
 
-        {/* Hero section animation */}
         <motion.div
           initial={{ opacity: 0, scale: 0.9 }}
           animate={{ opacity: 1, scale: 1 }}
@@ -38,7 +36,6 @@ function App() {
           <Hero />
         </motion.div>
 
-        {/* About section animation */}
         <motion.div
           initial={{ x: -100, opacity: 0 }}
           whileInView={{ x: 0, opacity: 1 }}
@@ -48,7 +45,6 @@ function App() {
           <About />
         </motion.div>
 
-        {/* Experience section animation */}
         <motion.div
           initial={{ x: 100, opacity: 0 }}
           whileInView={{ x: 0, opacity: 1 }}
@@ -58,7 +54,6 @@ function App() {
           <Experience />
         </motion.div>
 
-        {/* MyWork animation */}
         <motion.div
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}

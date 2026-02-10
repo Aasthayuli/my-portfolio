@@ -32,7 +32,7 @@ const Contact = () => {
   return (
     <div
       id="contact"
-      className="flex flex-col items-center justify-center gap-[80px] my-[80px] mx-[170px] contact"
+      className="flex flex-col items-center justify-center gap-[80px] my-[80px] mx-[170px] contact mybg"
     >
       <div className="relative">
         <h1 className="py-0 text-[50px] font-bold">Get in Touch</h1>

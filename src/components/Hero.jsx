@@ -1,9 +1,11 @@
-import profile from "../assets/profile.jpg";
+import profile from "../assets/profile2.png";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 import { SoundContext } from "../App";
 import { useContext } from "react";
+
 const Hero = () => {
   const { enableSound } = useContext(SoundContext) || {};
+
   function handleDownload() {
     const link = document.createElement("a");
     link.href = "/Aasthayuli.pdf";
@@ -12,7 +14,7 @@ const Hero = () => {
   }
 
   return (
-    <div id="home" className="flex items-center flex-col gap-4 hero">
+    <div id="home" className="flex items-center flex-col gap-4 hero mybg">
       <img src={profile} alt="" className="mt-16 h-[300px] rounded-full" />
 
       <h1 className="text-center w-1/3 text-5xl font-bold font-serif ">

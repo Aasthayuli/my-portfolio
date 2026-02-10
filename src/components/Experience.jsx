@@ -3,7 +3,7 @@ const Experience = () => {
   return (
     <div
       id="experience"
-      className="flex flex-col items-center justify-center gap-[80px] my-[120px] mx-[100px] mywork"
+      className="flex flex-col items-center justify-center gap-[80px] my-[120px] mx-[100px] mywork mybg"
     >
       <div className="relative mywork-title">
         <h1 className="py-0 px-[30px] text-[50px]  font-bold">Experience</h1>
@@ -15,7 +15,7 @@ const Experience = () => {
             <div className="flex flex-col md:flex-row gap-10">
               <div
                 key={work.w_no}
-                className=" rounded-2xl shadow-2xl border-2  border-[#34699A] md:w-1/2 h-full p-[20px] "
+                className=" rounded-2xl shadow-2xl border-2  border-[#34699A] w-full md:w-1/3 h-full p-[20px]"
               >
                 <img src={work.w_img} alt="" />
               </div>
