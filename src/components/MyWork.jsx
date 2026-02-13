@@ -6,7 +6,7 @@ const MyWork = () => {
   return (
     <div
       id="work"
-      className="flex flex-col items-center justify-center gap-[30px] my-[80px] mx-[170px] mywork mybg"
+      className="flex flex-col items-center justify-center gap-[30px] px-6 my-[80px] mx-[20px] mywork mybg"
     >
       <div className="relative mywork-title">
         <h1 className="py-0 px-[30px] text-[50px]  font-bold">Projects</h1>
