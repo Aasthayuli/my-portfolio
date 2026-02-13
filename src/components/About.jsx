@@ -21,7 +21,7 @@ const About = () => {
   return (
     <div
       id="about"
-      className="flex flex-col items-center justify-center my-16 mx-28 about mybg"
+      className="flex flex-col items-center justify-center my-16 mx-4 mybg"
     >
       <div className="relative about-title mb-12">
         <h1 className="py-0 px-[30px] text-[50px] font-extrabold relative ">

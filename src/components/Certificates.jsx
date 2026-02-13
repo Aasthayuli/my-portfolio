@@ -8,7 +8,7 @@ const Certificates = () => {
   return (
     <div
       id="services"
-      className="flex flex-col items-center justify-center gap-[80px] my-[80px]  services mybg"
+      className="flex flex-col items-center justify-center gap-[80px] my-[80px]  px-4 mybg"
     >
       <div className="relative services-title">
         <h1 className="py-0 text-[50px] font-bold">Certificates</h1>

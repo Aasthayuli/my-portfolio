@@ -97,7 +97,7 @@ function App() {
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, delay: 1 }}
-          className="hidden md:flex fixed bottom-4 right-4 flex-col items-center"
+          className="hidden md:flex fixed bottom-4 right-4 z-10 flex-col items-center "
         >
           <AnchorLink
             offset={50}

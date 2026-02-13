@@ -161,7 +161,6 @@
       display: block;
       position: fixed;
       right: 30px;
-      cursor: pointer;
     }
     .nav-mob-close {
       display: block;
@@ -223,7 +222,6 @@
 
     .about {
       gap: 80px;
-      margin: 50px 70px;
       align-items: start;
     }
     .about-title h1 {
@@ -252,9 +250,6 @@
       align-items: center;
     }
 
-    .services {
-      margin: 70px;
-    }
     .services-title h1 {
       font-size: 50px;
       padding: 0;
@@ -304,7 +299,6 @@
 
     .contact {
       gap: 50px;
-      margin: 50px 70px;
       align-items: start;
     }
 
@@ -337,9 +331,6 @@
       padding: 15px 40px;
     }
 
-    .footer {
-      margin: 50px 70px;
-    }
     .footer-top {
       flex-direction: column;
       gap: 50px;
