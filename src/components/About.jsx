@@ -35,47 +35,7 @@ const About = () => {
         <div className="flex flex-col gap-[80px]">
           <div className="flex flex-col gap-[20px] text-2xl about-para">
             <p>
-              {/* I'm <span className="gradient-text">Aasthayuli</span>, from
-              Saharsa, Bihar. I completed my schooling at{" "}
-              <span className="gradient-text">
-                Jawahar Navodaya Vidyalaya, Saharsa
-              </span>{" "}
-              and I'm pursuing{" "}
-              <span className="gradient-text">B.Tech in Computer Science</span>{" "}
-              from{" "}
-              <span className="gradient-text">
-                Global Institute of Technology and Management, Gurugram
-              </span>{" "}
-              and currently in the{" "}
-              <span className="gradient-text">final year</span>. I have a strong
-              command over full-stack development and a solid programming
-              foundation. I work confidently with{" "}
-              <span className="font-semibold gradient-text">
-                HTML, CSS, JavaScript, Tailwind, Bootstrap, React
-              </span>{" "}
-              , and backend development using{" "}
-              <span className="font-semibold gradient-text">
-                Python and Flask
-              </span>
-              .
-            </p>
-            <p>
-              My{" "}
-              <span className="font-semibold gradient-text">
-                Java and DSA background
-              </span>{" "}
-              strengthens my logic and problem-solving, while my{" "}
-              <span className="gradient-text"> exposure to AI/ML</span>—through
-              multiple self-built projects and a virtual internship—helps me
-              build smart, efficient applications. I learn by doing, and I've
-              grown my skills through real, hands-on project work.
-            </p>
-            <p> */}
-              {/* Hi, I'm <span className="gradient-text">Aasthayuli</span>.
-              <br></br>I enjoy creating clean, purposeful, and scalable
-              products, and I'm actively working toward opportunities where I
-              can build meaningful tech and grow as a developer. */}
-              I am a{" "}
+              {/* I am a{" "}
               <span className="gradient-text">
                 final year Computer Science student
               </span>{" "}
@@ -96,7 +56,46 @@ const About = () => {
                 high learning discipline{" "}
               </span>{" "}
               . Eager to work where I can apply my current skills, gain
-              experience and grow as a developer.
+              experience and grow as a developer. */}
+              Hello, I'm <span className="gradient-text">Aasthayuli, </span> a
+              final-year{" "}
+              <span className="gradient-text"> Computer Science Student</span>{" "}
+              who enjoys building practical software applications.
+              <br />
+              <br />
+              My primary interest lies in{" "}
+              <span className="gradient-text">software development</span>,
+              particularly{" "}
+              <span className="gradient-text">backend and full-stack</span>{" "}
+              systems. I have worked on projects such as a{" "}
+              <span className="gradient-text">
+                Grocery Inventory Management System
+              </span>{" "}
+              built with <span className="gradient-text">Flask and React</span>,
+              a{" "}
+              <span className="gradient-text">Hospital Management System</span>{" "}
+              developed using{" "}
+              <span className="gradient-text">Java Swing and MySQL</span>, and a{" "}
+              <span className="gradient-text">Water Quality Classifier</span>{" "}
+              using <span className="gradient-text">PyTorch and OpenCV</span>.
+              <br />
+              <br />
+              Through these projects, I have gained experience in{" "}
+              <span className="gradient-text">
+                Python, Java, React, database design
+              </span>
+              , and building complete software workflows. I also have a solid
+              understanding of core computer science subjects like{" "}
+              <span className="gradient-text">Operating Systems and DBMS</span>.
+              <br />
+              <br />
+              Currently, I am focused on improving my{" "}
+              <span className="gradient-text">problem-solving skills</span>{" "}
+              through{" "}
+              <span className="gradient-text">
+                Data Structures and Algorithms
+              </span>{" "}
+              while continuing to build real-world software projects.
             </p>
           </div>
         </div>
@@ -107,6 +106,44 @@ const About = () => {
         </div>
         <div className="card-frame">
           <div className="img-div animate-pulse">
+            <img src={python} />
+            <span>Python</span>
+          </div>
+          <div className="img-div animate-pulse">
+            <img src={java} />
+            <span>Java </span>
+          </div>
+          <div className="img-div animate-pulse">
+            <img src={js} />
+            <span>JavaScript </span>
+          </div>
+          <div className="img-div animate-pulse">
+            <img src={c} />
+            <span>C</span>
+          </div>
+          <div className="img-div animate-pulse">
+            <img src={flask} />
+            <span>Flask</span>
+          </div>
+          <div className="img-div animate-pulse">
+            <img src={reactjs} />
+            <span>React JS </span>
+          </div>
+          <div className="img-div animate-pulse">
+            <img src={twcss} />
+            <span>Tailwind CSS </span>
+          </div>
+          <div className="img-div animate-pulse">
+            <img src={mysql} />
+            <span>My SQL </span>
+          </div>
+
+          <div className="img-div animate-pulse">
+            <img src={pytorch} />
+            <span>Pytorch</span>
+          </div>
+
+          <div className="img-div animate-pulse">
             <img src={html} />
             <span>HTML </span>
           </div>
@@ -114,49 +151,14 @@ const About = () => {
             <img src={css} />
             <span>CSS </span>
           </div>
-          <div className="img-div animate-pulse">
-            <img src={twcss} />
-            <span>Tailwind CSS </span>
-          </div>
+
           {/* <div className="img-div animate-pulse">
             <img src={bootstrap} />
             <span>BootStrap</span>
           </div> */}
-          <div className="img-div animate-pulse">
-            <img src={js} />
-            <span>JavaScript </span>
-          </div>
-          <div className="img-div animate-pulse">
-            <img src={reactjs} />
-            <span>React JS </span>
-          </div>
-          <div className="img-div animate-pulse">
-            <img src={c} />
-            <span>C</span>
-          </div>
-          <div className="img-div animate-pulse">
-            <img src={java} />
-            <span>Java </span>
-          </div>
-          <div className="img-div animate-pulse">
-            <img src={python} />
-            <span>Python</span>
-          </div>
-          <div className="img-div animate-pulse">
-            <img src={flask} />
-            <span>Flask</span>
-          </div>
-          <div className="img-div animate-pulse">
-            <img src={pytorch} />
-            <span>Pytorch</span>
-          </div>
-          <div className="img-div animate-pulse">
-            <img src={mysql} />
-            <span>My SQL </span>
-          </div>
         </div>
         <div className="card-title gradient-text ">
-          <h4>Competitive Programming </h4>
+          <h4>Visit Competitive Programming </h4>
         </div>
         <div className="card-frame">
           <div className="img-div animate-pulse">

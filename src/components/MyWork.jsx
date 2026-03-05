@@ -28,6 +28,7 @@ const MyWork = () => {
                   className="box-border transition duration-300 "
                 />
               </Link>
+              <p className="gradient-text">{work.w_techstacks}</p>
             </div>
           );
         })}

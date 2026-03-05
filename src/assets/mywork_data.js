@@ -10,6 +10,7 @@ export const mywork_data = [
     w_name: "Grocery Inventory Management System",
     w_img: project3_img,
     w_link: "https://github.com/Aasthayuli/Grocery_Inventory_Management",
+    w_techstacks: "Flask | React | Tailwind | MySQL",
   },
   // {
   //   w_no: 4,
@@ -22,12 +23,14 @@ export const mywork_data = [
     w_name: "Hospital Management System",
     w_img: project6_img,
     w_link: "https://github.com/Aasthayuli/hospital-management-system",
+    w_techstacks: "Java | Swing | MySQL",
   },
   {
     w_no: 5,
     w_name: "Water Quality Classification System",
     w_img: project5_img,
     w_link: "https://github.com/Aasthayuli/water-quality-classifier-enhanced",
+    w_techstacks: "PyTorch | OpenCV | Streamlit",
   },
 ];
 export const experience_data = [

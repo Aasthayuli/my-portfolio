@@ -25,9 +25,9 @@ const Hero = () => {
       </h1>
 
       <p className="w-1/2 text-center text-2xl">
-        Highly motivated, proactive programmer with a passion for tackling
-        complex, real-world challenges. Curious and driven, I thrive on solving
-        intricate problems and continuously seek to enhance my skills.
+        Software developer focused on building practical applications using
+        Python, Flask, React and Java. Interested in backend systems and solving
+        real-world problems through efficient software solutions.
       </p>
       <div className="flex items-center gap-10 text-xl mb-10 hero-action">
         <div
