@@ -1,5 +1,5 @@
 import profile2 from "../assets/profile.png";
-import bootstrap from "../assets/bootstrap.png";
+import flask from "../assets/flask.png";
 import c from "../assets/c.jpeg";
 import css from "../assets/css.png";
 import git from "../assets/git.png";
@@ -86,14 +86,17 @@ const About = () => {
               <span className="gradient-text">python developer</span>. I also
               have exposure to <span className="gradient-text">AI/ML</span>{" "}
               through personal projects. Currently I practice Data Structures
-              and Algorithms and have{" "}
-              <span className="gradient-text">high learning discipline </span>{" "}
-              and{" "}
+              and Algorithms. I have{" "}
               <span className="gradient-text">
                 project based learning experience
-              </span>
-              . I am looking for a role where I can apply my current skills,
-              gain experience and grow as a developer.
+              </span>{" "}
+              with
+              <span className="gradient-text">
+                {" "}
+                high learning discipline{" "}
+              </span>{" "}
+              . Eager to work where I can apply my current skills, gain
+              experience and grow as a developer.
             </p>
           </div>
         </div>
@@ -138,6 +141,10 @@ const About = () => {
           <div className="img-div animate-pulse">
             <img src={python} />
             <span>Python</span>
+          </div>
+          <div className="img-div animate-pulse">
+            <img src={flask} />
+            <span>Flask</span>
           </div>
           <div className="img-div animate-pulse">
             <img src={pytorch} />
